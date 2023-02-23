@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  ruby:
+    build: .
+    working_dir: /app_root
+    env_file:
+      - ./.env
+    volumes:
+      - .:/app_root

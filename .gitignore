@@ -1,0 +1,3 @@
+.env
+config/settings.yml
+data/report_data.txt
